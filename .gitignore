@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+
+coverage*
+
+node_modules
+dist/
+*.local
+.yarn
+.pnp*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.suo
