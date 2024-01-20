@@ -11,7 +11,7 @@ export const App = () => (
           I'm a software engineer with experience in enterprise software
           development using both monolithic and microservice architecture. I
           enjoy learning about new technologies to further develop my skillset
-          and to embrace the change in our ever-expanding web ecosystem.
+          and to embrace the change in the ever-expanding web ecosystem.
         </p>
       </div>
       <div className='app-connect-text-container'>
