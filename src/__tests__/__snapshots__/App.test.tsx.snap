@@ -2,8 +2,55 @@
 
 exports[`App > should match the snapshot 1`] = `
 <div>
-  <h1>
-    Hey there, time to make a fast app!
-  </h1>
+  <div
+    class="app"
+  >
+    <div
+      class="app-corner-triangle"
+    />
+    <div
+      class="app-large-heading-text"
+    >
+      Hey,
+    </div>
+    <div
+      class="app-large-heading-text"
+    >
+      I'm Michael,
+    </div>
+    <div
+      class="app-large-heading-text"
+    >
+      software engineer
+    </div>
+    <div
+      class="app-heading-sub-text"
+    >
+      React / TypeScript / GraphQL
+    </div>
+    <div
+      class="app-bio-container"
+    >
+      <p>
+        I'm a software engineer with experience in enterprise software development using both monolithic and microservice architecture. I enjoy learning about new technologies to further develop my skillset and to embrace the change in our ever-expanding web ecosystem.
+      </p>
+    </div>
+    <div
+      class="app-connect-text-container"
+    >
+      <p>
+        Want to connect? Feel free to reach out on
+         
+        <a
+          class="linkedin-link-text"
+          href="https://www.linkedin.com/in/michael-nos/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        .
+      </p>
+    </div>
+  </div>
 </div>
 `;
