@@ -10,7 +10,8 @@
     "predeploy": "npm run build",
     "preview": "vite preview",
     "test": "vitest",
-    "update:packages": "npm outdated"
+    "update:packages": "npx npm-check-updates --interactive",
+    "update:snapshots": "vitest -u"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -26,7 +27,7 @@
     "@vitest/coverage-v8": "1.2.1",
     "gh-pages": "^6.1.1",
     "jest": "29.7.0",
-    "jsdom": "23.2.0",
+    "jsdom": "24.0.0",
     "typescript": "5.3.3",
     "vite": "5.0.12",
     "vitest": "1.2.1"
