@@ -72,3 +72,25 @@ div.app {
     color: #f5c000;
   }
 }
+
+@media only screen and (max-width: 460px) {
+  div.app {
+    & div.app-large-heading-text,
+    & div.app-heading-sub-text,
+    & div.app-bio-container,
+    & div.app-connect-text-container {
+      margin-left: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  div.app {
+    & div.app-large-heading-text,
+    & div.app-heading-sub-text,
+    & div.app-bio-container,
+    & div.app-connect-text-container {
+      margin-left: 0.5rem;
+    }
+  }
+}
